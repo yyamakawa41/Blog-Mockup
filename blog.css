@@ -9,14 +9,19 @@ body{
 }
 
 #header{
-	border: 1px solid black;
+	border-bottom: 4px solid black;
 	overflow: hidden;
 	color: blue;
+	margin-top: 2%;
+
 }
+
 
 #header .header-text{
 	font-size: 30px;
+	font-family: 'Orbitron', sans-serif;
 	float: left;
+	margin-left: 2%;
 }
 
 #header .header-text h1{
@@ -25,6 +30,7 @@ body{
 
 #header .search-bar{
 	float: right;
+	margin-top: 1%
 }
 
 input{
@@ -65,8 +71,20 @@ input{
 	margin-bottom: 2%;
 }
 
+p{
+	padding-left: 6%;
+	margin:0;
+}
 #first-right-rail-item{
 	margin-top: 4%;
+}
+
+ul{
+	margin: 0;
+color: red;
+}
+
+.list-items{
 }
 
 li{
