@@ -1,4 +1,4 @@
-body{
+/*body{
 	background-color: #cacaca;
 }
 #blog-wrapper{
@@ -26,13 +26,13 @@ body{
 
 #header .header-text h1{
 	margin: 0;
-}
+}*/
 
 #header .search-bar{
 	float: right;
 	margin-top: 1%
 }
-
+/*
 input{
 	border-radius: 10px;
 }
@@ -92,7 +92,7 @@ li{
 	font-weight: bold;
 	text-decoration: underline;
 }
-
+*/
 .blog-header-image img{
 	width: 100%;
 	margin: 2%;

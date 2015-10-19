@@ -3,29 +3,100 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="blog.css">
+	<title>YY Blog</title>
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="blog.css">
+
 </head>
 <body>
 	<div id="blog-wrapper">
-		<div id="header">
+	<div class="container">
+		<div id="header" class="col-lg-12">
 			<div class="header-text">
 				<h1>This is my blog</h1>
 			</div>
 			<div class="search-bar">
 				<input type="text" placeholder="Search">
 			</div>
-			
+		</div>
+	</div>
+
+	<nav class="navbar navbar-inverse" >
+		<div class="container">
+		<ul class="nav navbar-nav col-lg-12">
+			<li>
+				<a href="">Home</a>
+			</li>
+			<li>
+				<a href="">About</a>
+			</li>
+			<li>
+				<a href="">Blog</a>
+			</li>
+		</div>
+	</nav>
+		<div class="container">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" id="main-container">
+			<div class="blog-header-image">
+				<img src="blog-mock-image.png">
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="right-rail" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="right-rail-item" id="first-right-rail-item">
+					<p>Main Menu</p>
+					<ul class:"list-items">
+						<li>Menu</li>
+						<li>About</li>
+						<li>Home</li>
+					</ul>
+				</div>	
+
+				<div class="right-rail-item">
+					<p>Older Posts</p>
+					<ul class:"list-items">
+						<li>Menu</li>
+						<li>About</li>
+						<li>Home</li>
+					</ul>
+				</div>	
+
+				<div class="right-rail-item">
+					<p>Blog Roll</p>
+					<ul class:"list-items">
+						<li>Menu</li>
+						<li>About</li>
+						<li>Home</li>
+					</ul>
+				</div>	
+
+				<div class="right-rail-item">
+					<p>Most Read Posts</p>
+					<ul class:"list-items">
+						<li>Menu</li>
+						<li>About</li>
+						<li>Home</li>
+					</ul>
+				</div>	
+
+				<div class="right-rail-item">
+					<p>Syndication</p>
+					<ul class:"list-items">
+						<li>Menu</li>
+						<li>About</li>
+						<li>Home</li>
+					</ul>
+				</div>	
+
+			</div>
+		</div>
 		
-		</div>
-		<div id="main-container">
-		<div class="blog-header-image">
-			<img src="blog-mock-image.png">
-		</div>
 		<div id="blog-body-container">
-			<div class="blog-item">
+			<div class="blog-item col-lg-4 col-md-4 col-xs-6">
 				<div class="blog-item-header">
 					<h3>This is a blog title</h3>
 					<div class="blog-author">Blog Author</div>
@@ -35,7 +106,7 @@
 				</div>
 			</div>
 
-			<div class="blog-item">
+			<div class="blog-item col-lg-4 col-md-4 col-xs-6">
 				<div class="blog-item-header">
 					<h3>This is a blog title</h3>
 					<div class="blog-author">Blog Author</div>
@@ -45,7 +116,7 @@
 				</div>
 			</div>
 
-			<div class="blog-item">
+			<div class="blog-item col-lg-4 col-md-4 col-xs-6">
 				<div class="blog-item-header">
 					<h3>This is a blog title</h3>
 					<div class="blog-author">Blog Author</div>
@@ -58,54 +129,10 @@
 		</div>
 		</div>
 
-		<div id="right-rail">
-			<div class="right-rail-item" id="first-right-rail-item">
-				<p>Main Menu</p>
-				<ul class:"list-items">
-					<li>Menu</li>
-					<li>About</li>
-					<li>Home</li>
-				</ul>
-			</div>
-
-			<div class="right-rail-item">
-				<p>Older Posts</p>
-				<ul class:"list-items">
-					<li>Menu</li>
-					<li>About</li>
-					<li>Home</li>
-				</ul>
-			</div>
-
-			<div class="right-rail-item">
-				<p>Blog Roll</p>
-				<ul class:"list-items">
-					<li>Menu</li>
-					<li>About</li>
-					<li>Home</li>
-				</ul>
-			</div>
-
-			<div class="right-rail-item">
-				<p>Most Read Posts</p>
-				<ul class:"list-items">
-					<li>Menu</li>
-					<li>About</li>
-					<li>Home</li>
-				</ul>
-			</div>
-
-			<div class="right-rail-item">
-				<p>Syndication</p>
-				<ul class:"list-items">
-					<li>Menu</li>
-					<li>About</li>
-					<li>Home</li>
-				</ul>
-			</div>
-
-		</div>
+		
 		
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
