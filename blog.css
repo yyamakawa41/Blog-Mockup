@@ -93,6 +93,10 @@ li{
 	text-decoration: underline;
 }
 */
+#fancybox{
+	text-align: center;
+}
+
 .blog-header-image img{
 	width: 100%;
 	margin: 2%;
