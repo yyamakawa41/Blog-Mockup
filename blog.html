@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="blog.css">
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+	
+
 
 </head>
 <body>
@@ -95,7 +100,18 @@
 		</nav>
 	</div>
 	
-
+	<a id="single_1" class="single" href="http://farm1.staticflickr.com/291/18653638823_a86b58523c_b.jpg" title="Lupines (Kiddi Einars)">
+	<img src="http://farm1.staticflickr.com/291/18653638823_a86b58523c_m.jpg" alt="" />
+	</a>
+	<a id="single_2" class="single" href="http://farm4.staticflickr.com/3826/18875570170_e20cf27a4d_b.jpg" title="Colorful Feldberg II (STEFFEN EGLY)">
+		<img src="http://farm4.staticflickr.com/3826/18875570170_e20cf27a4d_m.jpg" alt="" />
+	</a>
+	<a id="single_3" class="single" href="http://farm1.staticflickr.com/471/19102574835_d5a7837217_b.jpg" title="Cannon Needles (JustinPoe)">
+		<img src="http://farm1.staticflickr.com/471/19102574835_d5a7837217_m.jpg" alt="" />
+	</a>
+	<a id="single_4" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+		<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+	</a>
 
 		<div class="container" id="blog-body-container">
 			<div class="blog-item col-lg-4 col-md-4 col-xs-6">
@@ -160,7 +176,20 @@
 		</div>
 		</div>
 
-		
+			<script type="text/javascript">
+
+	$(document).ready(function(){
+	    // alert("hello");
+	    $(".single").fancybox({
+	          helpers: {
+	              title : {
+	                  type : 'float'
+	              }
+	          }
+	      });	
+
+	});
+	</script>
 		
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
